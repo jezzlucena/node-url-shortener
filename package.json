@@ -1,0 +1,34 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A URL shortener service built with Node.js, Express, MongoDB, and REST APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jezzlucena/node-url-shortener.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "REST"
+  ],
+  "dependencies": {
+    "express": "3.x",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.3"
+  },
+  "author": "Jezz Lucena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jezzlucena/node-url-shortener/issues"
+  },
+  "homepage": "https://github.com/jezzlucena/node-url-shortener#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
